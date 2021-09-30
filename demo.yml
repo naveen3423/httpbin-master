@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: ak-angular-app
-        image: naveen3423/myapp:latest
+        image: naveen3423/mywebapp:latest
         ports:
         - containerPort: 8085
         
