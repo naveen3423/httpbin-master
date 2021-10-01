@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: prod-app
-        image: naveen3423/mywebapp:{{BUILD_NUMBER}}
+        image: naveen3423/mywebapp:${BUILD_NUMBER}
         ports:
         - containerPort: 8085
         
