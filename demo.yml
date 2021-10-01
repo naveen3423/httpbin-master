@@ -17,7 +17,7 @@ spec:
         image: naveen3423/mywebapp:latest
         ports:
         - containerPort: 8085
-      imagePullPolicy: Always
+       imagePullPolicy: Always
         
 # service type ClusterIP       
 ---
