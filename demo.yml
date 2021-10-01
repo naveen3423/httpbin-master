@@ -14,10 +14,9 @@ spec:
     spec:
       containers:
       - name: prod-app
-        image: naveen3423/mywebapp:latest
+        image: naveen3423/mywebapp:{{BUIL_NUMBER}}
         ports:
         - containerPort: 8085
-       imagePullPolicy: Always
         
 # service type ClusterIP       
 ---
